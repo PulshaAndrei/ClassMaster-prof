@@ -34,6 +34,54 @@
 			}, 1000, 'easeInOutExpo');
 			return false;
 		});
+		$('body').on('click', '.scroll-shops', function(e){
+			e.preventDefault();
+
+			$('html, body').animate({
+				scrollTop: $( $(this).closest('[data-next="yes"]').next()).offset().top
+			}, 1000, 'easeInOutExpo');
+			return false;
+		});
+		$('body').on('click', '.scroll-menu0', function(e){
+			e.preventDefault();
+
+			$('html, body').animate({
+				scrollTop: $("#m0").offset().top
+			}, 1000, 'easeInOutExpo');
+			return false;
+		});
+		$('body').on('click', '.scroll-menu1', function(e){
+			e.preventDefault();
+
+			$('html, body').animate({
+				scrollTop: $("#m1").offset().top
+			}, 1000, 'easeInOutExpo');
+			return false;
+		});
+		$('body').on('click', '.scroll-menu2', function(e){
+			e.preventDefault();
+
+			$('html, body').animate({
+				scrollTop: $("#m2").offset().top
+			}, 1000, 'easeInOutExpo');
+			return false;
+		});
+		$('body').on('click', '.scroll-menu3', function(e){
+			e.preventDefault();
+
+			$('html, body').animate({
+				scrollTop: $("#m3").offset().top
+			}, 1000, 'easeInOutExpo');
+			return false;
+		});
+		$('body').on('click', '.scroll-menu4', function(e){
+			e.preventDefault();
+
+			$('html, body').animate({
+				scrollTop: $("#m4").offset().top
+			}, 1000, 'easeInOutExpo');
+			return false;
+		});
 	};
 
 	// Parallax

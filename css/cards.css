@@ -3468,3 +3468,16 @@ a:hover .lnk-icon-right {
 }
 
 /*# sourceMappingURL=cards.css.map */
+
+.scroll-shops a{
+  background: #1784fb!important;
+  border-color: #1784fb!important;
+}
+
+.icon-vkontakte{
+  height: 17px;
+  width: 17px;
+  margin-right: 5px;
+  margin-top: 4px;
+  vertical-align: top;
+}
