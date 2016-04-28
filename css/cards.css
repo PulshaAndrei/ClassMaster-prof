@@ -3481,3 +3481,8 @@ a:hover .lnk-icon-right {
   margin-top: 4px;
   vertical-align: top;
 }
+.time {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+}
